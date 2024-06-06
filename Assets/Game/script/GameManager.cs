@@ -49,13 +49,16 @@ public class GameManager : MonoBehaviour
         return null;
     }
 
+    public float w=5;
+    public float h=5;
+
     Vector3 getCeilItemPos(int i,int j )
     {
 
         Vector3 ve = default;
 
-        ve.x = 1 * j;
-        ve.y = -1 * i;
+        ve.x = 1 * j*w;
+        ve.y = -1 * i*h;
         return ve;
     }
 
@@ -119,7 +122,7 @@ public class GameManager : MonoBehaviour
         
         {
             StartSwap(clickCeilNumber,0);
-            palySound?.Invoke();
+            //palySound?.Invoke();
         }
         else
         {
@@ -224,7 +227,7 @@ public class GameManager : MonoBehaviour
     {
 
 
-         rval = Random.Range(3, 6);
+        rval = 3;// Random.Range(3, 6);
 
         if (Random.value > 0.5)
         {
@@ -248,6 +251,7 @@ public class GameManager : MonoBehaviour
             {
                 Vector3 pos = getCeilItemPos(i, j);// new Vector3(i, j, 0);
                 var go = GameObject.Instantiate(CeilItem, pos, Quaternion.identity);
+               go.transform.localScale = new Vector3(0.5434f, 0.5434f, 0.5434f);
                 var ceilItem = go.GetComponent<CeilItem>();
                 int number = numbers[numberIdx];
                 ceilItem.Init(number,i, j);

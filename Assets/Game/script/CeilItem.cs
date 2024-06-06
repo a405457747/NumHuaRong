@@ -50,7 +50,7 @@ public class CeilItem : MonoBehaviour
         var printStr = $"rIdx:{rIdx},cIdx:{cIdx},number:{number}";
 
 
-        GameManager.Inst.CheckSwap(rIdx, cIdx,number, palySound);
+       GameManager.Inst.CheckSwap(rIdx, cIdx,number, palySound);
         Debug.Log(printStr);
     }
 

@@ -254,15 +254,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4b09dd507e3100746a5e800ef1739573, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -387,7 +387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &466840249
 RectTransform:
   m_ObjectHideFlags: 0
@@ -514,12 +514,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -748,7 +748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -103.4}
+  m_AnchoredPosition: {x: 0, y: -103.400024}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599118075
@@ -1741,8 +1741,8 @@ Canvas:
   m_GameObject: {fileID: 1391176245}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1918,7 +1918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1525157420
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2027,15 +2027,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CeilItem: {fileID: 3760245097759870056, guid: 8ff5866eeca9110439f81057e430dc3c, type: 3}
   mapSps:
-  - {fileID: -88283044, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: -2065308607, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: 335137721, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: 626434936, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: 403410616, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: -660536212, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: 1681879016, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: -1576678041, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
-  - {fileID: 1781579678, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
+  - {fileID: 713238077, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: -2024892193, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: 715278204, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: 446099672, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: 1209392701, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: -1313743361, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: 1320481968, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: 1330894605, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
+  - {fileID: -511847801, guid: ed5e37058e6f3174f83152cfe45ea053, type: 3}
   - {fileID: -626238166, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
   - {fileID: -1479181401, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
   - {fileID: -946038349, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
@@ -2054,6 +2054,8 @@ MonoBehaviour:
   - {fileID: -1944935754, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
   - {fileID: 752027973, guid: 2a9e2b8a01f2c724ea8658824e29e7e5, type: 3}
   numbers: 010000000200000003000000040000000500000006000000070000000800000000000000
+  w: 2.8
+  h: 2.8
 --- !u!1 &1642425012
 GameObject:
   m_ObjectHideFlags: 0
